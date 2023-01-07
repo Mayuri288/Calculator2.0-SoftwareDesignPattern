@@ -1,0 +1,37 @@
+// $Id: assignment4.mpc 378 2010-02-07 22:09:38Z hillj $
+
+project (assignment4) {
+  exename = assignment4
+  install = .
+ 
+  specific (make, gnuace) {
+    compile_flags += -std=c++11
+  }
+
+  Source_Files {
+    Expression_Node.cpp
+    Binary_Expression_Node.cpp
+	Subtraction_Expression_Node.cpp
+	Addition_Expression_Node.cpp
+	Division_Expression_Node.cpp
+	Modulus_Expression_Node.cpp
+	Multiplication_Expression_Node.cpp
+	Number_Expression_Node.cpp
+	Unary_Expression_Node.cpp
+	Right_Parenthesis_Node.cpp
+	left_Parentheses_Node.cpp
+	Evaluate_Expression_Tree_Visitor.cpp
+	Expression_Builder.cpp
+	Expression_Node_Visitor.cpp
+	Abstract_Evaluate_Factory.cpp
+	Evaluate_Expression_Factory.cpp
+	Expression_Tree_Builder.cpp
+	Calculator.cpp
+	driver.cpp
+  }
+
+  Template_Files {
+    Stack.cpp
+    Array.cpp
+  }
+}
