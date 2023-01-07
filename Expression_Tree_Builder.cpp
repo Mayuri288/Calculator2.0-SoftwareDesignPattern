@@ -2,9 +2,6 @@
 
 #include "Expression_Tree_Builder.h"
 
-// COMMENTS Add more comments, and try to remove duplicate code by using
-// helper methods/functions.
-//Response : Added
 
 Expression_Tree_Builder::Expression_Tree_Builder() {}
 
