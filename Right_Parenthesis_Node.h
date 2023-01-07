@@ -4,11 +4,6 @@
 
 #include "Expression_Node.h"
 
-// COMMENT: Per our discussion in class from Assignment 3, having
-// the parenthesis as a node is not a good design. Please fix this
-// problem in your design.
-
-//Response: Tried to fix in validation part
 
 class Right_Parenthesis_Node : public Expression_Node {
 public:
